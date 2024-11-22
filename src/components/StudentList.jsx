@@ -107,12 +107,12 @@ const StudentList = () => {
               <td>
                 <Link
                   to={`/edit/${student.id}`}
-                  className="btn btn-info btn-sm me-2"
+                  className="btn btn-primary btn-md me-2"
                 >
                   <i className="fas fa-edit"></i> Edit
                 </Link>
                 <button
-                  className="btn btn-danger btn-sm"
+                  className="btn btn-danger btn-md"
                   onClick={() => handleDelete(student.id)}
                 >
                   <i className="fas fa-trash-alt"></i> Delete

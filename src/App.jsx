@@ -1,20 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import StudentList from './components/StudentList';
-import StudentForm from './components/StudentForm';
-import StudentDetails from './components/StudentDetails';
-import Navbar from './components/Navbar';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import StudentList from "./components/StudentList";
+import StudentForm from "./components/StudentForm";
+import EditStudent from "./components/EditStudent"; // Import EditStudent component
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<StudentList />} />
-        <Route path="/add-student" element={<StudentForm />} />
-        <Route path="/student/:id" element={<StudentDetails />} />
+        <Route path="/add" element={<StudentForm />} />
+        <Route path="/edit/:id" element={<EditStudent />} />{" "}
+        {/* Edit route for student */}
       </Routes>
-    </Router>
+    </div>
   );
 };
 

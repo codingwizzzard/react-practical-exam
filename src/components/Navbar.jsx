@@ -9,10 +9,10 @@ const Navbar = () => {
           Student Management
         </Link>
         <div>
-          <Link to="/" className="btn btn-outline-light me-2 bg-warning">
+          <Link to="/" className="btn text-light me-2 bg-primary">
             Student List
           </Link>
-          <Link to="/add" className="btn btn-outline-light bg-warning">
+          <Link to="/add" className="btn text-light bg-primary">
             Add Student
           </Link>
         </div>
