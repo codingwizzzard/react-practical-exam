@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": "61e4",
+      "name": "Teagan Quinn",
+      "rollNumber": "310",
+      "class": "Id minima magni comm"
+    },
+    {
+      "id": "bf49",
+      "name": "Daryl Rose",
+      "rollNumber": "94",
+      "class": "Quia veritatis offic"
+    },
+    {
+      "id": "db83",
+      "name": "Hamish Bridges",
+      "rollNumber": "298",
+      "class": "Illum sint rem nemo"
+    },
+    {
+      "id": "9272",
+      "name": "David Tyler",
+      "rollNumber": "263",
+      "class": "Cillum molestiae qua"
+    },
+    {
+      "id": "c73b",
+      "name": "Charity Munoz",
+      "rollNumber": "635",
+      "class": "Placeat ea ex labor"
+    },
+    {
+      "id": "2db5",
+      "name": "Medge Macias",
+      "rollNumber": "728",
+      "class": "In quaerat exercitat"
+    }
+  ]
+}
